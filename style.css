@@ -19,7 +19,8 @@ body {
 }
 
 .neon-button {
-  font-size: 4em;
+  /* font-size must be non-floating */
+  font-size: 30px;
   cursor: pointer;
   color: currentColor;
   text-decoration: none;
